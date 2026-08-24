@@ -1,0 +1,31 @@
+{
+  "color": {
+    "surface": { "$type": "color", "$value": "#ffffff" },
+    "surface-muted": { "$type": "color", "$value": "#f4f1ec" },
+    "text": { "$type": "color", "$value": "#16130f" },
+    "text-muted": { "$type": "color", "$value": "#5b544c" },
+    "brand": { "$type": "color", "$value": "#0f62fe" },
+    "brand-strong": { "$type": "color", "$value": "#0843b0" },
+    "danger": { "$type": "color", "$value": "#b3261e" },
+    "on-brand": { "$type": "color", "$value": "#ffffff" }
+  },
+  "space": {
+    "xs": { "$type": "dimension", "$value": { "value": 4, "unit": "px" } },
+    "sm": { "$type": "dimension", "$value": { "value": 8, "unit": "px" } },
+    "md": { "$type": "dimension", "$value": { "value": 16, "unit": "px" } },
+    "lg": { "$type": "dimension", "$value": { "value": 24, "unit": "px" } },
+    "xl": { "$type": "dimension", "$value": { "value": 40, "unit": "px" } }
+  },
+  "radius": {
+    "sm": { "$type": "dimension", "$value": { "value": 4, "unit": "px" } },
+    "md": { "$type": "dimension", "$value": { "value": 10, "unit": "px" } },
+    "full": { "$type": "dimension", "$value": { "value": 999, "unit": "px" } }
+  },
+  "font": {
+    "family": { "$type": "fontFamily", "$value": ["Inter", "system-ui", "sans-serif"] },
+    "size-body": { "$type": "dimension", "$value": { "value": 16, "unit": "px" } },
+    "size-heading": { "$type": "dimension", "$value": { "value": 32, "unit": "px" } },
+    "weight-body": { "$type": "fontWeight", "$value": 400 },
+    "weight-heading": { "$type": "fontWeight", "$value": 700 }
+  }
+}

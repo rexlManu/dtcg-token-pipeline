@@ -1,0 +1,11 @@
+{
+  "name": "dtcg-token-pipeline",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "style-dictionary build --config style-dictionary.config.mjs"
+  },
+  "devDependencies": {
+    "style-dictionary": "^5.0.0"
+  }
+}
