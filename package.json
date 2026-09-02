@@ -3,7 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "style-dictionary build --config style-dictionary.config.mjs"
+    "build": "style-dictionary build --config style-dictionary.config.mjs",
+    "check": "node scripts/check-contrast.mjs",
+    "tokens": "npm run build && npm run check"
   },
   "devDependencies": {
     "style-dictionary": "^5.0.0"
