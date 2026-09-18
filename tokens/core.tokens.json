@@ -1,7 +1,7 @@
 {
   "color": {
     "surface": { "$type": "color", "$value": "#ffffff" },
-    "surface-muted": { "$type": "color", "$value": "#f4f1ec" },
+    "surface-raised": { "$type": "color", "$value": "#f4f1ec" },
     "text": { "$type": "color", "$value": "#16130f" },
     "text-muted": { "$type": "color", "$value": "#5b544c" },
     "brand": { "$type": "color", "$value": "#0f62fe" },
