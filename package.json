@@ -2,10 +2,15 @@
   "name": "dtcg-token-pipeline",
   "private": true,
   "type": "module",
+  "description": "Multi-brand DTCG tokens with CSS output and a WCAG contrast gate",
+  "engines": {
+    "node": "22.x"
+  },
+  "packageManager": "pnpm@10.34.5",
   "scripts": {
     "build": "style-dictionary build --config style-dictionary.config.mjs",
     "check": "node scripts/check-contrast.mjs",
-    "tokens": "npm run build && npm run check"
+    "tokens": "pnpm build && pnpm check"
   },
   "devDependencies": {
     "style-dictionary": "^5.0.0"
