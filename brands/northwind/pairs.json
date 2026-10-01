@@ -1,0 +1,10 @@
+[
+  ["color.text", "color.surface", 7],
+  ["color.text", "color.surface-raised", 7],
+  ["color.text-muted", "color.surface", 7],
+  ["color.text-muted", "color.surface-raised", 4.5],
+  ["color.on-brand", "color.brand", 4.5],
+  ["color.on-brand", "color.brand-strong", 7],
+  ["color.brand", "color.surface", 4.5],
+  ["color.danger", "color.surface", 4.5]
+]
