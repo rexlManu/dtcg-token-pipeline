@@ -10,7 +10,8 @@
   "scripts": {
     "build": "style-dictionary build --config style-dictionary.config.mjs",
     "check": "node scripts/check-contrast.mjs",
-    "tokens": "pnpm build && pnpm check"
+    "tokens": "pnpm build && pnpm check",
+    "test": "node --test test/contrast.test.mjs"
   },
   "devDependencies": {
     "style-dictionary": "^5.0.0"
