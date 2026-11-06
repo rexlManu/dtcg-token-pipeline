@@ -20,6 +20,8 @@ jobs:
           cache: pnpm
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+      - name: Build and check every brand
+        run: pnpm check:all
       - name: Test contrast maths and shipped brands
         run: pnpm test
       - name: Upload contrast reports

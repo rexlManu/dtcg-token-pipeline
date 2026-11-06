@@ -8,9 +8,11 @@ Style Dictionary v5 is the only direct dependency. Use Node built-in modules for
 
 ```sh
 pnpm install
+pnpm check:all
 pnpm test
 ```
 
+`check:all` builds and checks every directory under `brands/`.
 `test` checks the contrast maths and builds every shipped brand to check its pairs.
 
 To build and check one brand, run:
@@ -37,9 +39,9 @@ Do not edit or commit `dist/` or `node_modules/`.
 4. Use opaque sRGB colour objects. Use token aliases for semantic colours where possible.
 5. Edit `brands/contoso/pairs.json` to cover the brand's foreground and background combinations.
 6. Run `BRAND=contoso pnpm tokens`.
-7. Run `pnpm test` before you open a pull request.
+7. Run `pnpm check:all` and `pnpm test` before you open a pull request.
 
-The tests and CI discover directories under `brands/`.
+The all-brands command, tests, and CI discover directories under `brands/`.
 You do not need to add the brand to a second list.
 
 ## Add a contrast pair

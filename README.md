@@ -29,9 +29,12 @@ Run these commands from the repository root:
 
 ```sh
 	pnpm install
+	pnpm check:all
 	pnpm test
 ```
 
+`check:all` discovers every directory under `brands/`, builds each brand, checks its pairs, and prints a summary.
+It returns a non-zero exit code if any brand fails, and continues to check the remaining brands.
 `test` runs the contrast maths tests and verifies every shipped brand with a fresh build.
 
 To build and check the default brand, Acme, run:
